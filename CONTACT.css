@@ -1,0 +1,201 @@
+body {
+    background-color: #1d1f2a;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.Header {
+    background-color:#1d1f2a ;
+    height: 75px;
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    left: 0;
+    z-index: 6;
+}
+@font-face {
+    font-family: "beau1";
+    src: url("./font/Semplicita Light.otf");
+}
+.icon {
+    background-image: url("./pic/111.png") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+.iconi{
+    float: left;
+    font-size: 10px;
+}
+.iconi a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+.iconi p{
+    color: #ad956b;
+    line-height: 1px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu2{
+    float: left;
+    font-size: 17px;
+}
+
+.menu2 a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 28px 16px;
+    text-decoration: none;
+}
+
+.menu2:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+.NAME{
+    padding-top:15px ;
+    float: right;
+    padding-right: 590px;
+    font-family: beau1;
+}
+#name{
+    display: inline-block;
+    color: #dc7474;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#banner{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+
+.p1{
+    z-index: 90;
+    position: absolute;
+    right: 0;
+    top: -35px;
+}
+.titr{
+    color: #a85555;
+    position: absolute;
+    font-size: 90px;
+    top: 90px;
+}
+.text{
+    color: #878787;
+    position: absolute;
+    top: 210px;
+    width: 800px;
+    font-size: 17px;
+    font-family: beau1;
+}
+.select{
+    position: absolute;
+    top: 270px;
+    width: 800px;
+    height: 40px;
+    background-color: #111112;
+    color: #868687;
+}
+textarea {
+    background: #111113;
+    top: 330px;
+    position: absolute;
+    width: 800px;
+    height: 230px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8f8f8f;
+}
+button {
+    position: absolute;
+    top: 580px;
+    width: 805px;
+    padding: 10px 20px;
+    background-color: #8b0831;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.fter {
+    height: 55px;
+    overflow: hidden;
+    background-color: #121212;
+    position: absolute;
+    bottom: 0;
+    top: 660px;
+    left: 0;
+    right: 0;
+
+}
+.End{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-end;
+}
+
+
+.End a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.End a:hover {
+    color: #dc7474;
+    text-decoration: underline;
+}
+.pice{
+    top: 6px;
+    position: absolute;
+    right: 20px;
+}
+.Endlog{
+    right: 100px;
+    position: absolute;
+    top: 21px;
+}
+.Endlog a{
+    padding: 15px 5px 3px 5px;
+
+}
+.Endlog a:hover{
+    background-color: #060000;
+    border-radius: 6px;
+}

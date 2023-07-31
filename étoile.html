@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./étoile.css">
+    <title>étoile</title>
+</head>
+<body>
+
+<div class="Header">
+    <ul class="menu">
+        <li class="iconi"><a href="PROFILE.html"><i class="icon"></i></a></li>
+        <li class="menu2"><a href="SHOP.html">Shop</a></li>
+        <li class="menu2"><a href="BLOG.html">Blog</a></li>
+        <li class="NAME"><a href="étoile.html">
+            <div id="name">étoile</div>
+            <div id="banner">have your own style</div>
+        </a>
+        </li>
+    </ul>
+</div>
+
+<div class="PIC1">
+    <div ><img src="./pic/7.jpg" alt="STYLE" height="600px"; width="410px"; class="i1"></div>
+    <div ><img src="./pic/lololo.jpg" alt="STYLE" align="right" height="600px"; width="410px"; class="i1"></div>
+    <div ><img src="./pic/bibibi.jpg" alt="STYLE" align="right" height="600px"; width="410px"; class="i1"></div>
+</div>
+
+<div class="PIC2">
+    <div ><img src="./pic/2.jpg" alt="STYLE" align="right" height="600px"; width=" 280px"; class="i2"></div>
+    <div ><img src="./pic/lala.jpg" alt="STYLE" align="right" height="600px"; width=" 280px"; class="i2"></div>
+    <div ><img src="./pic/nanana.jpg" alt="STYLE" align="right" height="600px"; width=" 280px"; class="i2"></div>
+</div>
+
+<script>
+    let slide1 = 0;
+    let slide2 = 0;
+
+    showS1();
+    showS2();
+
+    function showS1() {
+        let i1 = document.getElementsByClassName("i1");
+        for (let x = 0; x < i1.length; x++) {
+            i1[x].style.display = "none";
+        }
+        slide1++;
+
+        if (slide1 > i1.length) {
+            slide1 = 1;
+        }
+        i1[slide1-1].style.display = "block";
+
+        setTimeout(showS1, 2500);
+    }
+
+
+    function showS2() {
+        let i2 = document.getElementsByClassName("i2");
+        for (let x = 0; x < i2.length; x++) {
+            i2[x].style.display = "none";
+        }
+        slide2++;
+
+        if (slide2 > i2.length) {
+            slide2 = 1;
+        }
+        i2[slide2-1].style.display = "block";
+
+        setTimeout(showS2, 2000);
+    }
+
+
+</script>
+
+
+
+<div class="text1">
+
+   <div class="ti1">Design&style</div>
+   <div class="ti2">Your Personal Style</div>
+   <pre class="ti3">
+The key to looking great isn't following all of the latest fashion trends.
+It's staying true to your personal style. But what if you don't know what your style is?
+You can develop your unique style by searching for inspiration, creating a mood board
+and experimenting with fashion.
+   </pre>
+
+    <div class="but"><a href="BLOG.html" >START</a></div>
+
+</div>
+
+<div class="A">
+
+    <div class="midtext"><a href="./BLOG.html#Fashion style types"> Main Fashion Style Types</a> </div>
+
+    <div class="type1">
+
+        <div>
+        <p>Modern</p>
+        <img src="./pic/8lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+        <p>Classic</p>
+        <img src="./pic/2lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+        <p>Vintage</p>
+        <img src="./pic/3lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+        <p>Victorian</p>
+        <img src="./pic/4lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+            <p>Modern</p>
+            <img src="./pic/5lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+            <p>Classic</p>
+            <img src="./pic/7lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+            <p>Vintage</p>
+            <img src="./pic/9lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+        <div>
+            <p>Victorian</p>
+            <img src="./pic/1lo.jpg" alt="STYLE" width="300px">
+        </div>
+
+
+    </div>
+
+</div>
+
+<script>
+
+    const type1 = document.querySelector(".type1");
+
+    type1.addEventListener("mousemove", (event) => {
+        const S = 10;
+        const delta = (event.clientX / window.innerWidth - 0.5) * 2;
+        type1.scrollLeft += delta * S;
+    });
+
+</script>
+
+<div class="text2">
+
+    <img class="IMG3" src="./pic/b2.png" alt="STYLE"  width="440px">
+    <p class="t">Style Comes From the Inside Out</p>
+
+</div>
+
+
+<div class="pic4">
+    <img src="./pic/0.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+<div class="p41">
+    <img src="./pic/lili.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+<div class="p42">
+    <img src="./pic/56.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+<div class="p43">
+    <img src="./pic/sana.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+<div class="p44">
+    <img src="./pic/lilili.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+<div class="p45">
+    <img src="./pic/haha.jpg" alt="STYLE" align="right"  width="490px" height="700px">
+</div>
+
+
+
+<div class="last">
+<div class="T"><a href="./BLOG.html#Find your style" class="ea">How to Find Your Personal Style in 5 Steps</a> </div>
+<div class="lastext">
+
+    <div>Finding your personal style isn't something you can do overnight.
+    But there are strategies you can use to learn more about the clothing that works for you</div>
+
+    <div class="t41"><p style="color: white">Look to your own closet.</p>Think about the clothes you have that make you happy. What are your favorite items in your closet?
+    Pull these pieces out and think about why they make you feel good. Notice what they have in common.</div>
+
+    <div class="t42"><p style="color: white">Find fashion inspiration.</p>
+    When looking for fashion inspiration, start with family and friends whose style you admire.
+    Spend time on social media, and observe how friends and celebrities dress, from casual outfits like crop tops and
+    leggings to work-ready blazers and turtlenecks.
+    Blogs are full of fashion tips and inspiration, so find a few fashion bloggers whose style interests you and search
+    through their archives for your favorite outfits.
+    If there is a celebrity or an influencer whose style you like, try to find out who that celeb's stylist is
+    and look to them for inspiration.
+    Fashion magazines are another great source. Learn about different style types, and identify the ones with which you
+    most align.</div>
+
+    <div class="t43"><p style="color: white">Create a fashion mood board.</p>
+    A mood board is a great way to work toward developing your personal style.
+    Once you’ve gathered your fashion inspiration, compile the images into a mood board.
+    Even if your inspiration feels all over the place, you might discover that a lot of your models are wearing
+    denim jeans, a lot of them are wearing maxi dresses, a lot of them are wearing tops with ruffles—that's still
+    an overarching vibe or mood that you're going for.
+    Choose two or three images that exemplify the aesthetic of the group, and keep those images on your phone so that
+    you can look at them when you’re out shopping.</div>
+
+    <div class="t44"><p style="color: white">Create a capsule wardrobe.</p>
+    A capsule wardrobe is a collection of basics that you can mix and match to create effortless looks.
+    These are classic pieces in neutral colors that go with everything: a little black dress, a denim jacket
+    simple T-shirts, a leather tote.
+    You might already have some of these in your closet: Keep the ones that make you feel great, and replace
+    everything else with basics that really work for you.
+    These items may be simple, but they’ll help you show off your unique style by providing a foundation for
+    more exciting pieces.</div>
+
+    <div class="t45"><p style="color: white">Experiment with unique style choices.</p>
+    Once you've built your capsule collection, it's time to add unique pieces to your wardrobe that show off your
+    style personality.
+    This might involve some experimentation, so remember that it's okay if you change your mind.
+    Personal style is all about playing with fashion to discover which clothes make you feel your best.
+    Start with bold accessories and pops of color and then work on mixing and matching prints and textures.</div>
+
+</div>
+
+</div>
+
+<script>
+
+    function showImages() {
+        for (let i = 1; i <= 5; i++) {
+            const image = document.querySelector(".p4" + i);
+            const text = document.querySelector(".t4" + i);
+
+            text.addEventListener("mouseover", () => {
+                image.style.display = "block";
+            });
+
+            text.addEventListener("mouseout", () => {
+                image.style.display = "none";
+            });
+        }
+    }
+    showImages();
+</script>
+
+
+<div class="up">UP</div>
+
+
+<script>
+    let upCircle = document.querySelector(".up");
+    upCircle.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+
+
+
+<div class="fter">
+
+    <div class="End">
+    <p style="color: #f2f2f2;font-size: 14px;margin-left: 40px;">Company</p>
+    <a class="ach" href="" >Privacy</a>
+    <a class="ach" href="">Terms & Conditions</a>
+    <a class="ach" href="CONTACT.html">Contact</a>
+    <a class="ach" href="PROFILE.html">About Us</a>
+        <a class="ach" href="">Support</a>
+    </div>
+
+
+    <div class="v"></div>
+
+    <div class="pice">
+        <img src="./pic/99.png" alt="STYLE" width="150px">
+    </div>
+
+    <div class="textee">
+        <p>
+            An incredible eye for what's next in fashion.
+            A passionate drive to exceed expectations.
+            We've worked to deliver the best possible shopping experience &
+            helping our customers express their style—not just buy fashion.
+        </p>
+    </div>
+
+    <div class="Endlog">
+
+        <a href="https://twitter.com/thisuge?s=09"><img  src="./pic/777.png" alt="STYLE" width="25px"></a>
+        <a href="https://instagram.com/sugeg.h?igshid=ZDdkNTZiNTM="><img  src="./pic/888.png" alt="STYLE" width="25px"></a>
+        <a href="mailto:mahdiswatt@gmail.com"><img  src="./pic/666.png" alt="STYLE" width="25px"></a>
+        <a href=""><img  src="./pic/999.png" alt="STYLE" width="25px"></a>
+
+    </div>
+
+
+</div>
+</body>
+</html>

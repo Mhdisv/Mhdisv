@@ -1,0 +1,265 @@
+body {
+    background-color: #1d1f2a;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Header {
+    background-color:#1d1f2a ;
+    height: 75px;
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    left: 0;
+    z-index: 12;
+}
+@font-face {
+    font-family: "beau1";
+    src: url("./font/Semplicita Light.otf");
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.icon {
+    background-image: url("./pic/111.png") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+.iconi{
+    float: left;
+    font-size: 10px;
+}
+.iconi a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+.iconi p{
+    color: #ad956b;
+    line-height: 1px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu2{
+    float: left;
+    font-size: 17px;
+}
+
+.menu2 a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 28px 16px;
+    text-decoration: none;
+}
+
+.menu2:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+.NAME{
+    padding-top:15px ;
+    float: right;
+    padding-right: 20px;
+    font-family: beau1;
+}
+#name{
+    display: inline-block;
+    color: #dc7474;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#banner{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+
+.mybar{
+    display: inline-block;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: 0;
+
+}
+
+.mybar a {
+    position: fixed;
+    transition: 0.3s;
+    padding: 15px;
+    width: 220px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.boxi a{
+    display: inline-block;
+    background-color: #707070;
+    color: #1d1f2a;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.boxi a:hover{
+    background-color: #111;
+    color: #6b6b6c;
+}
+
+
+#a {
+    top: 270px;
+}
+
+#b {
+    top: 335px;
+}
+
+#c {
+    top: 400px;
+}
+#d {
+    top: 465px;
+}
+#f {
+    top: 530px;
+}
+#g {
+    top: 595px;
+}
+.pic111{
+display: inline-block;
+    position: fixed;
+    float: right;
+    right: -8px;
+    z-index: 10;
+}
+.pic222{
+    display: inline-block;
+    position: fixed;
+    float: right;
+    right: 513px;
+    z-index: 10;
+}
+
+.opsh{
+    position: absolute;
+    left: 380px;
+    top: 300px;
+    width: 1000px;
+    height: 800px;
+    z-index: 0;
+    border-radius: 3px;
+    overflow-y: scroll;
+    font-size: 18px;
+    color: white;
+}
+
+.pag {
+    position: absolute;
+    display: inline-block;
+    top: 1130px;
+    float: right;
+    right: 540px;
+}
+
+.pag a {
+    color: #ad956b;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+.pag a:hover{
+    background-color: #111;
+    border-radius: 5px;
+}
+
+.up{
+    background-color: #ad332d;
+    border-radius: 20px;
+    height: 52px;
+    width: 40px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    z-index: 20;
+    line-height: 49px;
+    color: white;
+    bottom: 35px;
+
+}
+
+
+.fter {
+    height: 55px;
+    overflow: hidden;
+    background-color: #121212;
+    position: absolute;
+    bottom: 0;
+    top: 1194px;
+    left: 0;
+    right: 0;
+
+}
+.End{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-end;
+}
+
+
+.End a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.End a:hover {
+    color: #dc7474;
+    text-decoration: underline;
+}
+.pice{
+    top: 6px;
+    position: absolute;
+    right: 20px;
+}
+.Endlog{
+    right: 100px;
+    position: absolute;
+    top: 21px;
+}
+.Endlog a{
+    padding: 15px 5px 3px 5px;
+
+}
+.Endlog a:hover{
+    background-color: #060000;
+    border-radius: 6px;
+}

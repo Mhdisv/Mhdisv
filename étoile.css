@@ -1,0 +1,397 @@
+body {
+    background-color: #1d1f2a;
+    margin-top: 0;
+}
+.Header {
+    background-color:#1d1f2a ;
+    height: 75px;
+    position: fixed;
+    right: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    left: 0;
+    z-index: 6;
+}
+@font-face {
+    font-family: "beau1";
+    src: url("./font/Semplicita Light.otf");
+}
+.icon {
+    background-image: url("./pic/111.png") ;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+.iconi{
+    float: left;
+    font-size: 10px;
+}
+.iconi a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+.iconi p{
+    color: #ad956b;
+    line-height: 1px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu2{
+    float: left;
+    font-size: 17px;
+}
+
+.menu2 a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 28px 16px;
+    text-decoration: none;
+}
+
+.menu2:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+.NAME{
+    padding-top:15px ;
+    float: right;
+    padding-right: 20px;
+    font-family: beau1;
+}
+#name{
+    display: inline-block;
+    color: #dc7474;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#banner{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+.PIC2{
+    top:88px;
+    right: 70px;
+    position: absolute;
+    height: 700px;
+}
+.PIC1{
+    top:88px;
+    right: 360px;
+    position: absolute;
+    height: 700px;
+}
+
+.i1{
+    display: none;
+}
+
+.i2{
+    display: none;
+}
+
+
+@font-face {
+    font-family: "beau2";
+    src: url("./font/mathilde.otf");
+}
+
+.text1{
+    top: 230px;
+    position: relative;
+    width: 690px;
+    left: 50px;
+}
+
+.ti1{
+    font-family: beau2;
+    font-size: 50px;
+    color: white;
+}
+.ti2{
+    color: white;
+    font-size: 40px;
+}
+.ti3{
+    font-size: 18px;
+    color: #d6cec0;
+    width: 590px;
+    font-family: "fantasy";
+}
+
+.but a{
+    background-color: #ad332d;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    top: 220px;
+    position: absolute;
+}
+
+.but a:hover{
+    background-color: #444d5b;
+    color: white;
+}
+
+.A{
+    position: relative;
+    top: 570px;
+    right: 20px;
+    left: 20px;
+    height: 770px;
+}
+.midtext{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.midtext a{
+    color: white;
+    text-decoration: none;
+}
+
+.midtext a:hover{
+    color: #dc7474;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.type1{
+
+    font-family: beau1;
+    padding-right: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #d6cec0;
+    display: flex;
+    overflow-x: scroll;
+}
+.type1 img{
+    height: 400px;
+    width: 290px;
+    margin-right: 30px;
+}
+.type1 :hover{
+    color: #ad332d;
+}
+.type1 :hover img{
+    height: 410px;
+    width: 310px;
+}
+
+
+@font-face {
+    font-family: "beau3";
+    src: url("./font/VeganStylePersonalUse-5Y58.ttf");
+}
+
+.text2{
+    display: inline-block;
+    position: relative;
+    top: 510px;
+    background-color: #ad332d;
+    width: 100%;
+    height: 340px;
+}
+
+.t {
+    position: absolute;
+    color: #1d1f2a;
+    text-align: center;
+    font-size: 53px;
+    font-family: beau3;
+    top: 65px;
+    right: 200px;
+}
+
+.IMG3{
+    display: inline-block;
+    top: -210px;
+    position: relative;
+    left: 61px;
+}
+
+/*.text2:hover {
+    background-color: #121212;
+
+}
+
+.t:hover{
+    color: #dc7474;
+}*/
+
+.pic4{
+    position: relative;
+    top: 465px;
+    right: 24px;
+    z-index: -10;
+}
+.p41{
+    position: relative;
+    top: 465px;
+    left: 466px;
+    display: none;
+}
+.p42{
+    position: relative;
+    top: 465px;
+    left: 466px;
+    display: none;
+}
+.p43{
+    position: relative;
+    top: 465px;
+    left: 466px;
+    display: none;
+}
+.p44{
+    position: relative;
+    top: 465px;
+    left: 466px;
+    display: none;
+}
+.p45{
+    position: relative;
+    top: 465px;
+    left: 466px;
+    display: none;
+}
+
+.last{
+    position: relative;
+    top:465px;
+    left: 50px;
+}
+.T{
+    position: absolute;
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
+    width: 700px;
+    font-size: 40px;
+}
+.lastext{
+    left: 20px;
+    position: absolute;
+    top:60px;
+    background-color: #1d1f2a;
+    color: #969088;
+    font-size: 17px;
+    width: 750px;
+    font-family: "fantasy";
+    overflow-y: scroll;
+    height: 630px;
+}
+.ea{
+    text-decoration: none;
+    color: white;
+}
+.ea:hover{
+    color: #dc7474;
+}
+
+.up{
+    background-color: #ad332d;
+    border-radius: 20px;
+    height: 52px;
+    width: 40px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    z-index: 20;
+    line-height: 49px;
+    color: white;
+    bottom: 35px;
+
+}
+
+
+.fter {
+    height: 400px;
+    background-color: #121212;
+    position: relative;
+    bottom: 0;
+    top: 1225px;
+    left: 0;
+    right: 0;
+}
+.End{
+    position: absolute;
+    bottom: 90px;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+
+.ach {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    color: #53545a;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ach:hover{
+    color: #dc7474;
+    text-decoration: underline;
+}
+
+
+.v{
+    top: 50px;
+    position: absolute;
+    right:310px;
+    border-left: 1px solid #e2ceac;
+    height: 300px;
+}
+.pice{
+    top: 50px;
+    position: absolute;
+    right: 130px;
+}
+.textee{
+    top: 150px;
+    position: absolute;
+    right: 70px;
+    width: 210px;
+    color: #ddd1be;
+}
+.Endlog{
+    right: 130px;
+    position: absolute;
+    top: 320px;
+}
+.Endlog a{
+    padding: 15px 5px 3px 5px;
+
+}
+.Endlog a:hover{
+    background-color: #060000;
+    border-radius: 6px;
+}
+
